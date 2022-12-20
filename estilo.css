@@ -1,0 +1,152 @@
+*{
+    font-family: sans-serif;
+}
+
+
+body{
+    background-color: #EEF1F9;
+}
+
+header {
+    /*background-color: rgb(123, 254, 584);*/
+    background-image: url("../img/fondo1.jpg");
+    background-size: auto; /*Propiedad que viene Por defecto*/
+    /*background-image: linear-gradient(red, yellow);*/
+    
+    height: 400px;
+    
+}
+
+.logotipo{
+    padding-left: 5px;
+
+}
+
+.divNavegador{
+    display: flex;
+    
+}
+
+header .logotipo{
+   width: 60px;
+   height: 60px;
+   
+}
+
+.navegadores{
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.paginas{
+    padding-left: 5px;
+    
+}
+
+.titulo{
+    display: block;
+    text-align: center;
+    padding-top: 50px;
+
+}
+h1{
+    color: brown;
+    font-size: 50px;
+}
+
+.subtitulo{
+  
+    margin-top: -20px;
+    color: rgb(55, 84, 179);
+}
+
+.descripcion{
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tableTitulo{
+    text-align: center;
+}
+
+.desPerro{
+    line-height: 1.6;
+    padding-left: 10px;
+    padding-right: 5px;
+    text-align: justify;
+    
+}
+
+.primerConcepto{
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.tablaRazas{
+    width: 90%;
+    background-color: #F0E4E4;
+}
+
+
+.tablaPresentacion{
+    text-align: center;
+}
+
+.videoRaza{
+    width: 90%;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tablaDescripcion{
+    background-color: #F8EBEB;
+}
+
+.tablaVideo{
+    background-color: #F8EBEB;
+}
+
+
+/*Appenzeller*/
+.primeraImagen{
+    width: 400px;
+    height:% 385px;
+
+}
+.ap1, .ap2, .ap3, .ap4 {
+    width: 295px;
+    height: 250px;
+}
+
+.titulobeagle {
+    text-decoration-line: overline;
+    color: darkblue;
+}
+
+.datosgenerales{
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    color: darkblue;
+    text-decoration-thickness: 3px;
+    text-decoration-color: darkblue;
+
+}
+
+
+.galeria, .reseña{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkblue;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+}
+
+.videofinal{
+    width: 1190px;
+}
+
+
+
